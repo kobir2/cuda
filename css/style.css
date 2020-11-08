@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+   
+}
+
+header{
+    background: #87509c;
+    width: 100%;
+    float: left;
+}
+
+.header-top {
+    padding: 20px;
+    width: 100%;
+    float: left;
+}
+
+.logo{
+    width: 25%;
+    float: left;
+}
+
+.menu{
+    width: 75%;
+    float: left;
+}
+nav {
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-transform: capitalize;
+    padding: 7px 15px;
+    font-size: 20px;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+   background: #643a79;
+   border-radius: 5px;
+   color: #00ffff;
+}
+
+.header-banner{
+    width: 65%;
+    overflow: hidden;
+    padding: 75px 0;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.header-banner h2 {
+    padding-bottom: 50px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.btn {
+    padding: 15px 60px;
+    font-size: 20px;
+    background: #eb7d4b;
+    outline: none;
+    border: 2px solid #eb7d4b;
+    box-shadow: 0px 5px 0 #c86a40;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*--service--*/
+
+.service{
+    background: #17c2a4;
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.title {
+    width: 65%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.title h3 {
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 25px 0;
+}
+
+.title span {
+    border-bottom: 4px solid #161616;
+    display: block;
+    width: 15%;
+    margin: 0 auto;
+}
+
+.title p {
+    color: #161616;
+    margin: 10px 0;
+}
+.service-box {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+.service-box-inner {
+    width: 25%;
+    float: left;
+    margin: 15px 0;
+    padding: 0 10px
+}
+
+.service-img {
+    padding: 10px 10px;
+}
+
+.service-box-inner h3 {
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+.service-box-inner p {
+    color: #fff;
+    
+}
+
+/*--team--*/
+
+.team {
+    width: 100%;
+    float: left;
+    padding: 25px 0;
+    background: #d3d3d3;
+}
+
+.team-box {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.team-box-inner {
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+
+.team-img {
+    width: 200px;
+    padding: 20px 0;
+}
+
+.role {
+    color:#673ab7;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+
+.team-menu {
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+
+.team-menu ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+
+
+.team-menu ul li a i.fa.fa-facebook {
+    color: #fff;
+    background: #9e9e9e;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+.team-menu ul li a i.fa.fa-twitter {
+    color: #fff;
+    background: #9e9e9e;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+.team-menu ul li a i.fa.fa-linkedin {
+    color: #fff;
+    background: #9e9e9e;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+.team-menu ul li a i.fa.fa-envelope-o {
+    color: #fff;
+    background: #9e9e9e;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+/*--skil--*/
+
+.skil{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.skil-box {
+    width: 100%;
+    overflow: hidden;
+    padding: 21px 0;
+    text-align: center;
+}
+
+.skil-box-inner {
+    width: 25%;
+    float: left;
+    margin: 0 auto;
+}
+
+.skil-img {
+    padding: 20px 0;
+}
+
+
+
+.skil-box-inner h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/*--portfolio--*/
+
+.portfolio {
+    background: #ffdd99;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.portflolio-menu {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio-btn-one {
+    background: #ebc985;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    text-transform: capitalize;
+    color: #fff;
+    outline: none;
+    transition: 0.5s;
+}
+
+.portfolio-btn-one:hover {
+    cursor: pointer;
+    box-shadow: inset 0 2px 6px rgba(60, 71, 97, 00.5);
+}
+
+.portfolio-box {
+    width: 100%;
+    margin: 20px 0;
+    overflow: hidden;
+    padding: 10px;
+}
+.portfolio-box-inner {
+    width: 50%;
+    float: left;
+}
+.portfolio-img {
+    padding: 10px 20px;
+}
+
+.portfolio-box-inner h3 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.portfolio-btn-two{
+    background: #30d0c1;
+    border: 2px solid #30d0c1;
+    box-shadow: 0px 5px 0 #009688;
+    margin: 30px auto;
+    display: block;
+    color: #fff;
+
+}
+
+/*--about--*/
+.about {
+    background: #d74680;
+    width: 100%;
+    overflow: hidden;
+    padding: 30px 0;
+}
+.about-title h3{
+    color: #fff;
+}
+
+.about-title p{
+    color: #fff;
+}
+
+.about-box {
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.about-box-inner {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+   margin: 20px 0;
+}
+
+.about-box-inner-one {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+
+img.about-img {
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-box-inner-two {
+    padding: 10px;
+    width: 70%;
+    overflow: hidden;
+    float: left;
+}
+
+.about-box-inner-two p {
+    color: #fff;
+    padding: 0 20px 20px 0;
+}
+
+
+.about-box-inner-two h2 {
+    color: #fff;
+}
+
+.role-2 {
+    color: #ffdd99;
+    font-size: 14px;
+}
+
+/*--contact--*/
+
+.contact {
+    background: #3c5499;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contact-title h3{
+    color: #fff;
+}
+
+.contact-title p{
+    color: #fff;
+}
+
+.form-box {
+    width: 70%;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.form-c {
+    width: 45%;
+    margin: 2%;
+    background: #273a71;
+    outline: none;
+    color: #01ffb9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+.form-c::placeholder{
+    color: #a9b0c6;
+}
+
+.form-h{
+    width: 95%;
+    margin: 2%;
+    background: #273a71;
+    outline: none;
+    color: #01ffb9;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    height: 100px;
+
+}
+
+.contact-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 50px;
+    background: #30d0c1;
+    border-bottom: 3px solid #009688;
+    border-radius: 3px;
+    box-shadow: 0 10px 0 #009688;
+    outline: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 1s;
+    border: none;
+    color: #fff;
+}
+
+.contact-btn:hover{
+    background: #09dcdc;
+    color: #000;
+}
+
+/*--footer--*/
+
+footer {
+    background: #344b8e;
+    padding: 20px 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-menu {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+}
+
+.footer-menu ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+.footer-menu ul li a {
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    transition: 1s;
+}
+
+.footer-menu ul li a:hover{
+    color: #30bae7;
+}
